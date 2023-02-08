@@ -11,7 +11,7 @@ class Config:
     Gadrive_crypt = os.environ.get("Gadrive_crypt", "")
     Kolop_crypt = os.environ.get("Kolop_crypt", "")
     Katdrive_crypt = os.environ.get("Katdrive_crypt", "")
-    Gtot_crypt = os.environ.get("Gtot_crypt", "")
+    Gtot_crypt = os.environ.get("Gtot_crypt", "bHBwelMwOS9qeEUxVWd1STI4dCszL3JzME1IQVF0Uk16NEQ5ZmZBbzlSdz0%3D")
     Appdrive_email = os.environ.get("Appdrive_email", "")
     Appdrive_password = os.environ.get("Appdrive_password", "")
     Hubdrive_crypt = os.environ.get("Hubdrive_crypt", "")
