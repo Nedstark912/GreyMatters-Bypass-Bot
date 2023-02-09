@@ -4,7 +4,7 @@ class Config:
     API_ID = int(os.environ.get("API_ID", "28342111"))
     API_HASH = os.environ.get("API_HASH", "095ce7d8ec9b1df670e168a7c619458f")       
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6230026576:AAEZkDZeTibnPoihcW4YbIBZBLnePzBgvbc")
-    Channel_id = os.environ.get("Channel_id", "-1001880475904")
+    Channel_id = os.environ.get("Channel_id", "-1001879342512")
     Drivebuzz_crypt = os.environ.get("Drivebuzz_crypt", "")
     Drivefire_crypt = os.environ.get("Drivefire_crypt", "")
     Jiodrive_crypt = os.environ.get("Jiodrive_crypt", "")
