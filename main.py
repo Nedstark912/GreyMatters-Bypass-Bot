@@ -234,7 +234,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                            ChatMemberStatus.RESTRICTED):
             await cmd.reply_text(
                 text=
-                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/greymatters_bots_discussion).",
+                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/redoxofficially).",
                 disable_web_page_preview=True,
             )
             return 0
@@ -247,7 +247,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🤖 Join Updates Channel",
-                            url="t.me/GreyMatter_Bots",
+                            url="https://t.me/redoxofficially",
                         )
                     ],
                 ]),
@@ -262,7 +262,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await cmd.reply_text(
             text=
-            "Something went Wrong! Contact my [Support Group](https://t.me/greymatters_bots_discussion)",
+            "Something went Wrong! Contact my [Support Group](https://t.me/redoxofficially)",
             disable_web_page_preview=True,
         )
         return 0
