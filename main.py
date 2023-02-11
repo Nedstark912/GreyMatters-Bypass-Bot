@@ -220,9 +220,9 @@ async def start(_: pbot, m: Message):
 You just need to send me the message containing the links! I will replace the un shorted link and send you back!
 Do wait for 10 seconds for each link to process and bypass after sending the links!
 
-**Support: @GreyMatter_Bots!**
+**Support: @Magnus741!**
 
-**Subscribe: https://youtube.com/@GreyMattersYT**""")
+**Subscribe: https://t.me/redoxofficially**""")
     return
 
 
